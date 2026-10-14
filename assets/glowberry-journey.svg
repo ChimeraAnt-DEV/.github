@@ -1,14 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="100%" height="200">
   <defs>
     <style>
-      /* General Animations */
-      @keyframes scroll {
+      /* --- Keyframes --- */
+      @keyframes scroll-slow {
+        0% { transform: translateX(0); }
+        100% { transform: translateX(-800px); }
+      }
+      @keyframes scroll-fast {
         0% { transform: translateX(0); }
         100% { transform: translateX(-800px); }
       }
       @keyframes walk {
-        0% { transform: translateX(-50px); }
-        100% { transform: translateX(850px); }
+        0% { transform: translateX(-60px); }
+        100% { transform: translateX(860px); }
       }
       @keyframes leg-swing {
         0%, 100% { transform: translateY(0); }
@@ -19,116 +23,163 @@
         50% { transform: translateY(4px); }
       }
       @keyframes appear {
-        0% { opacity: 0; transform: scale(0.8); }
-        10% { opacity: 1; transform: scale(1); }
-        90% { opacity: 1; transform: scale(1); }
-        100% { opacity: 0; transform: scale(0.8); }
+        0% { opacity: 0; transform: translateY(10px) scale(0.9); }
+        10% { opacity: 1; transform: translateY(0) scale(1); }
+        90% { opacity: 1; transform: translateY(0) scale(1); }
+        100% { opacity: 0; transform: translateY(-10px) scale(0.9); }
       }
       @keyframes float {
         0%, 100% { transform: translateY(0); }
-        50% { transform: translateY(-8px); }
+        50% { transform: translateY(-6px); }
       }
-      @keyframes glow {
-        0%, 100% { filter: drop-shadow(0 0 2px #f0f); }
-        50% { filter: drop-shadow(0 0 8px #f0f); }
+      @keyframes glow-pulse {
+        0%, 100% { filter: drop-shadow(0 0 2px #b44dff); }
+        50% { filter: drop-shadow(0 0 10px #b44dff); }
+      }
+      @keyframes text-fade {
+        0%, 80% { opacity: 0; }
+        100% { opacity: 1; }
       }
 
-      /* Classes */
-      .bg-layer-1 { animation: scroll 20s linear infinite; }
-      .bg-layer-2 { animation: scroll 10s linear infinite; }
-      .bg-layer-3 { animation: scroll 5s linear infinite; }
+      /* --- Classes --- */
+      .bg-far { animation: scroll-slow 30s linear infinite; }
+      .bg-mid { animation: scroll-slow 20s linear infinite; }
+      .bg-near { animation: scroll-fast 12s linear infinite; }
       
-      .player { animation: walk 20s linear infinite; }
-      .leg-left { animation: leg-swing 0.6s ease-in-out infinite; transform-origin: center top; }
-      .leg-right { animation: leg-swing 0.6s ease-in-out infinite reverse; transform-origin: center top; }
-      .arm-left { animation: arm-swing 0.6s ease-in-out infinite; transform-origin: center top; }
-      .arm-right { animation: arm-swing 0.6s ease-in-out infinite reverse; transform-origin: center top; }
+      .player { animation: walk 22s linear infinite; }
+      .leg-l { animation: leg-swing 0.7s ease-in-out infinite; transform-origin: center top; }
+      .leg-r { animation: leg-swing 0.7s ease-in-out infinite reverse; transform-origin: center top; }
+      .arm-l { animation: arm-swing 0.7s ease-in-out infinite; transform-origin: center top; }
+      .arm-r { animation: arm-swing 0.7s ease-in-out infinite reverse; transform-origin: center top; }
 
-      .milestone { opacity: 0; animation: appear 20s linear infinite; }
+      .milestone { opacity: 0; animation: appear 22s linear infinite; }
       .m1 { animation-delay: 2s; }
       .m2 { animation-delay: 6s; }
       .m3 { animation-delay: 10s; }
       .m4 { animation-delay: 14s; }
       .m5 { animation-delay: 18s; }
       
-      .portal { animation: glow 2s ease-in-out infinite; }
-      .float { animation: float 3s ease-in-out infinite; }
+      .portal-glow { animation: glow-pulse 2s ease-in-out infinite; }
+      .float-anim { animation: float 3s ease-in-out infinite; }
+      .text-anim { animation: text-fade 22s linear infinite; }
     </style>
   </defs>
 
-  <!-- Sky -->
-  <rect width="800" height="200" fill="#87CEEB"/>
+  <!-- Sky Gradient -->
+  <defs>
+    <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="200" fill="url(#skyGrad)"/>
 
-  <!-- Background Layer 1 (Clouds) -->
-  <g class="bg-layer-1" opacity="0.6">
-    <rect x="50" y="30" width="60" height="15" rx="5" fill="#FFF"/>
-    <rect x="100" y="40" width="40" height="10" rx="5" fill="#FFF"/>
-    <rect x="300" y="20" width="80" height="20" rx="8" fill="#FFF"/>
-    <rect x="600" y="50" width="50" height="12" rx="6" fill="#FFF"/>
+  <!-- Stars -->
+  <g opacity="0.6">
+    <circle cx="100" cy="30" r="1.5" fill="#fff"/>
+    <circle cx="250" cy="60" r="1" fill="#fff"/>
+    <circle cx="400" cy="20" r="1.5" fill="#fff"/>
+    <circle cx="550" cy="50" r="1" fill="#fff"/>
+    <circle cx="700" cy="35" r="1.5" fill="#fff"/>
   </g>
 
-  <!-- Background Layer 2 (Hills) -->
-  <g class="bg-layer-2">
-    <path d="M0 150 Q50 100 100 150 T200 150 T300 150 T400 150 T500 150 T600 150 T700 150 T800 150 V200 H0 Z" fill="#6B8E23"/>
-    <path d="M0 160 Q80 120 160 160 T320 160 T480 160 T640 160 T800 160 V200 H0 Z" fill="#556B2F"/>
+  <!-- Far Background (Mountains) -->
+  <g class="bg-far">
+    <path d="M0 140 L100 80 L200 140 L300 90 L400 140 L500 70 L600 140 L700 100 L800 140 V200 H0 Z" fill="#0f3460" opacity="0.5"/>
+  </g>
+
+  <!-- Mid Background (Hills) -->
+  <g class="bg-mid">
+    <path d="M0 150 Q50 120 100 150 T200 150 T300 150 T400 150 T500 150 T600 150 T700 150 T800 150 V200 H0 Z" fill="#1a1a2e"/>
+    <path d="M0 160 Q80 130 160 160 T320 160 T480 160 T640 160 T800 160 V200 H0 Z" fill="#16213e"/>
   </g>
 
   <!-- Foreground Ground -->
-  <rect y="170" width="800" height="30" fill="#5D9C3C"/>
-  <rect y="175" width="800" height="25" fill="#4A7A2E"/>
+  <rect y="170" width="800" height="30" fill="#2d5a27"/>
+  <rect y="175" width="800" height="25" fill="#1e3d1a"/>
+  <g class="bg-near">
+    <rect x="0" y="170" width="40" height="5" fill="#3a7a32"/>
+    <rect x="80" y="170" width="30" height="5" fill="#3a7a32"/>
+    <rect x="160" y="170" width="50" height="5" fill="#3a7a32"/>
+    <rect x="280" y="170" width="40" height="5" fill="#3a7a32"/>
+    <rect x="380" y="170" width="60" height="5" fill="#3a7a32"/>
+    <rect x="500" y="170" width="35" height="5" fill="#3a7a32"/>
+    <rect x="600" y="170" width="45" height="5" fill="#3a7a32"/>
+    <rect x="720" y="170" width="40" height="5" fill="#3a7a32"/>
+  </g>
 
   <!-- Milestones -->
-  <!-- M1: Beta Sign -->
-  <g class="milestone m1" transform="translate(120, 140)">
-    <rect x="0" y="0" width="40" height="20" fill="#8B4513" rx="2"/>
-    <text x="20" y="14" font-family="monospace" font-size="10" fill="#FFF" text-anchor="middle">BETA</text>
-    <rect x="15" y="20" width="10" height="30" fill="#6B4226"/>
+  <!-- M1: BETA Sign -->
+  <g class="milestone m1" transform="translate(120, 130)">
+    <rect x="0" y="0" width="50" height="25" fill="#4a2c17" rx="3" stroke="#8B4513" stroke-width="2"/>
+    <text x="25" y="17" font-family="monospace" font-size="11" fill="#ffcc80" text-anchor="middle" font-weight="bold">BETA</text>
+    <rect x="20" y="25" width="10" height="30" fill="#6B4226"/>
   </g>
 
   <!-- M2: v1.0 Tree -->
-  <g class="milestone m2" transform="translate(280, 120)">
-    <rect x="15" y="20" width="10" height="30" fill="#8B4513"/>
-    <rect x="5" y="0" width="30" height="30" fill="#2E8B57" rx="5"/>
-    <text x="20" y="18" font-family="monospace" font-size="8" fill="#FFF" text-anchor="middle">v1.0</text>
+  <g class="milestone m2" transform="translate(280, 115)">
+    <rect x="18" y="25" width="10" height="30" fill="#5c3a1e"/>
+    <rect x="5" y="0" width="35" height="30" fill="#2e7d32" rx="4"/>
+    <rect x="10" y="-5" width="25" height="15" fill="#388e3c" rx="3"/>
+    <text x="22" y="18" font-family="monospace" font-size="10" fill="#fff" text-anchor="middle" font-weight="bold">v1.0</text>
   </g>
 
   <!-- M3: .AntEgg Mod Pack -->
-  <g class="milestone m3" transform="translate(450, 140)">
-    <rect x="0" y="0" width="60" height="30" fill="#D2691E" rx="4"/>
-    <text x="30" y="18" font-family="monospace" font-size="9" fill="#FFF" text-anchor="middle">.AntEgg</text>
-    <rect x="25" y="30" width="10" height="20" fill="#A0522D"/>
-    <circle cx="30" cy="15" r="3" fill="#FFD700" class="float"/>
+  <g class="milestone m3" transform="translate(450, 135)">
+    <rect x="0" y="0" width="70" height="35" fill="#b85c1a" rx="5" stroke="#e67e22" stroke-width="2"/>
+    <text x="35" y="16" font-family="monospace" font-size="9" fill="#fff" text-anchor="middle" font-weight="bold">.AntEgg</text>
+    <text x="35" y="28" font-family="monospace" font-size="7" fill="#ffe0b2" text-anchor="middle">Mod Packs</text>
+    <rect x="30" y="35" width="10" height="20" fill="#8B4513"/>
+    <circle cx="35" cy="18" r="4" fill="#FFD700" class="float-anim"/>
   </g>
 
   <!-- M4: Proximity Voice Chat -->
-  <g class="milestone m4" transform="translate(600, 130)">
-    <rect x="0" y="0" width="70" height="40" fill="#4A90D9" rx="6"/>
-    <text x="35" y="15" font-family="monospace" font-size="8" fill="#FFF" text-anchor="middle">VOICE</text>
-    <text x="35" y="28" font-family="monospace" font-size="7" fill="#FFF" text-anchor="middle">CHAT</text>
-    <rect x="30" y="40" width="10" height="20" fill="#3A7BBF"/>
+  <g class="milestone m4" transform="translate(600, 125)">
+    <rect x="0" y="0" width="80" height="45" fill="#1565c0" rx="8" stroke="#42a5f5" stroke-width="2"/>
+    <text x="40" y="18" font-family="monospace" font-size="9" fill="#fff" text-anchor="middle" font-weight="bold">VOICE</text>
+    <text x="40" y="32" font-family="monospace" font-size="8" fill="#bbdefb" text-anchor="middle">CHAT</text>
+    <rect x="35" y="45" width="10" height="15" fill="#0d47a1"/>
+    <!-- Sound waves -->
+    <path d="M 10 15 Q 5 22 10 30" stroke="#90caf9" stroke-width="2" fill="none" class="float-anim"/>
+    <path d="M 70 15 Q 75 22 70 30" stroke="#90caf9" stroke-width="2" fill="none" class="float-anim"/>
   </g>
 
   <!-- M5: Portal (Latest) -->
-  <g class="milestone m5" transform="translate(730, 120)">
-    <rect x="0" y="0" width="30" height="50" fill="#800080" rx="15" class="portal"/>
-    <rect x="5" y="5" width="20" height="40" fill="#DDA0DD" rx="10"/>
-    <circle cx="15" cy="25" r="5" fill="#FFF" class="float"/>
+  <g class="milestone m5" transform="translate(730, 110)">
+    <rect x="0" y="0" width="35" height="60" fill="#4a148c" rx="17" class="portal-glow"/>
+    <rect x="5" y="5" width="25" height="50" fill="#9c27b0" rx="12"/>
+    <rect x="10" y="10" width="15" height="40" fill="#ce93d8" rx="7"/>
+    <circle cx="17.5" cy="30" r="5" fill="#fff" class="float-anim"/>
   </g>
 
-  <!-- Player Character -->
+  <!-- Player Character (Enhanced Pixel Art) -->
   <g class="player">
+    <!-- Shadow -->
+    <ellipse cx="10" cy="175" rx="15" ry="4" fill="#000" opacity="0.3"/>
     <!-- Head -->
-    <rect x="0" y="120" width="20" height="20" fill="#FFDAB9" rx="2"/>
+    <rect x="0" y="115" width="22" height="22" fill="#f5cba7" rx="2"/>
+    <!-- Hair -->
+    <rect x="0" y="115" width="22" height="6" fill="#3e2723" rx="2"/>
     <!-- Eyes -->
-    <rect x="4" y="126" width="4" height="4" fill="#000"/>
-    <rect x="12" y="126" width="4" height="4" fill="#000"/>
-    <!-- Body -->
-    <rect x="0" y="140" width="20" height="20" fill="#4682B4" rx="2"/>
+    <rect x="4" y="123" width="5" height="5" fill="#1a1a1a"/>
+    <rect x="13" y="123" width="5" height="5" fill="#1a1a1a"/>
+    <!-- Mouth -->
+    <rect x="8" y="131" width="6" height="2" fill="#c0392b"/>
+    <!-- Body (Armor) -->
+    <rect x="0" y="137" width="22" height="22" fill="#2e86c1" rx="2"/>
+    <rect x="2" y="139" width="18" height="18" fill="#3498db" rx="1"/>
     <!-- Arms -->
-    <rect x="-6" y="140" width="6" height="16" fill="#FFDAB9" class="arm-left" rx="1"/>
-    <rect x="20" y="140" width="6" height="16" fill="#FFDAB9" class="arm-right" rx="1"/>
+    <rect x="-7" y="137" width="7" height="18" fill="#f5cba7" class="arm-l" rx="2"/>
+    <rect x="22" y="137" width="7" height="18" fill="#f5cba7" class="arm-r" rx="2"/>
     <!-- Legs -->
-    <rect x="2" y="160" width="7" height="14" fill="#2F4F4F" class="leg-left" rx="1"/>
-    <rect x="11" y="160" width="7" height="14" fill="#2F4F4F" class="leg-right" rx="1"/>
+    <rect x="2" y="159" width="8" height="16" fill="#1a5276" class="leg-l" rx="2"/>
+    <rect x="12" y="159" width="8" height="16" fill="#1a5276" class="leg-r" rx="2"/>
+    <!-- Boots -->
+    <rect x="1" y="171" width="10" height="4" fill="#5d4037" rx="1"/>
+    <rect x="11" y="171" width="10" height="4" fill="#5d4037" rx="1"/>
   </g>
-</svg>
+
+  <!-- Animated Title Text -->
+  <text x="400" y="40" font-family="monospace" font-size="24" fill="#fff" text-anchor="middle" font-weight="bold" class="text-anim">GlowberryClient</text>
+  <text x="400" y="60" font-family="monospace" font-size="12" fill="#aaa" text-anchor="middle" class="text-anim">A Minecraft Client for Android</text>
+</svg> 
