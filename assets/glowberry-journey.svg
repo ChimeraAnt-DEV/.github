@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="100%" height="200">
+  <defs>
+    <style>
+      /* General Animations */
+      @keyframes scroll {
+        0% { transform: translateX(0); }
+        100% { transform: translateX(-800px); }
+      }
+      @keyframes walk {
+        0% { transform: translateX(-50px); }
+        100% { transform: translateX(850px); }
+      }
+      @keyframes leg-swing {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-6px); }
+      }
+      @keyframes arm-swing {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(4px); }
+      }
+      @keyframes appear {
+        0% { opacity: 0; transform: scale(0.8); }
+        10% { opacity: 1; transform: scale(1); }
+        90% { opacity: 1; transform: scale(1); }
+        100% { opacity: 0; transform: scale(0.8); }
+      }
+      @keyframes float {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-8px); }
+      }
+      @keyframes glow {
+        0%, 100% { filter: drop-shadow(0 0 2px #f0f); }
+        50% { filter: drop-shadow(0 0 8px #f0f); }
+      }
+
+      /* Classes */
+      .bg-layer-1 { animation: scroll 20s linear infinite; }
+      .bg-layer-2 { animation: scroll 10s linear infinite; }
+      .bg-layer-3 { animation: scroll 5s linear infinite; }
+      
+      .player { animation: walk 20s linear infinite; }
+      .leg-left { animation: leg-swing 0.6s ease-in-out infinite; transform-origin: center top; }
+      .leg-right { animation: leg-swing 0.6s ease-in-out infinite reverse; transform-origin: center top; }
+      .arm-left { animation: arm-swing 0.6s ease-in-out infinite; transform-origin: center top; }
+      .arm-right { animation: arm-swing 0.6s ease-in-out infinite reverse; transform-origin: center top; }
+
+      .milestone { opacity: 0; animation: appear 20s linear infinite; }
+      .m1 { animation-delay: 2s; }
+      .m2 { animation-delay: 6s; }
+      .m3 { animation-delay: 10s; }
+      .m4 { animation-delay: 14s; }
+      .m5 { animation-delay: 18s; }
+      
+      .portal { animation: glow 2s ease-in-out infinite; }
+      .float { animation: float 3s ease-in-out infinite; }
+    </style>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="800" height="200" fill="#87CEEB"/>
+
+  <!-- Background Layer 1 (Clouds) -->
+  <g class="bg-layer-1" opacity="0.6">
+    <rect x="50" y="30" width="60" height="15" rx="5" fill="#FFF"/>
+    <rect x="100" y="40" width="40" height="10" rx="5" fill="#FFF"/>
+    <rect x="300" y="20" width="80" height="20" rx="8" fill="#FFF"/>
+    <rect x="600" y="50" width="50" height="12" rx="6" fill="#FFF"/>
+  </g>
+
+  <!-- Background Layer 2 (Hills) -->
+  <g class="bg-layer-2">
+    <path d="M0 150 Q50 100 100 150 T200 150 T300 150 T400 150 T500 150 T600 150 T700 150 T800 150 V200 H0 Z" fill="#6B8E23"/>
+    <path d="M0 160 Q80 120 160 160 T320 160 T480 160 T640 160 T800 160 V200 H0 Z" fill="#556B2F"/>
+  </g>
+
+  <!-- Foreground Ground -->
+  <rect y="170" width="800" height="30" fill="#5D9C3C"/>
+  <rect y="175" width="800" height="25" fill="#4A7A2E"/>
+
+  <!-- Milestones -->
+  <!-- M1: Beta Sign -->
+  <g class="milestone m1" transform="translate(120, 140)">
+    <rect x="0" y="0" width="40" height="20" fill="#8B4513" rx="2"/>
+    <text x="20" y="14" font-family="monospace" font-size="10" fill="#FFF" text-anchor="middle">BETA</text>
+    <rect x="15" y="20" width="10" height="30" fill="#6B4226"/>
+  </g>
+
+  <!-- M2: v1.0 Tree -->
+  <g class="milestone m2" transform="translate(280, 120)">
+    <rect x="15" y="20" width="10" height="30" fill="#8B4513"/>
+    <rect x="5" y="0" width="30" height="30" fill="#2E8B57" rx="5"/>
+    <text x="20" y="18" font-family="monospace" font-size="8" fill="#FFF" text-anchor="middle">v1.0</text>
+  </g>
+
+  <!-- M3: .AntEgg Mod Pack -->
+  <g class="milestone m3" transform="translate(450, 140)">
+    <rect x="0" y="0" width="60" height="30" fill="#D2691E" rx="4"/>
+    <text x="30" y="18" font-family="monospace" font-size="9" fill="#FFF" text-anchor="middle">.AntEgg</text>
+    <rect x="25" y="30" width="10" height="20" fill="#A0522D"/>
+    <circle cx="30" cy="15" r="3" fill="#FFD700" class="float"/>
+  </g>
+
+  <!-- M4: Proximity Voice Chat -->
+  <g class="milestone m4" transform="translate(600, 130)">
+    <rect x="0" y="0" width="70" height="40" fill="#4A90D9" rx="6"/>
+    <text x="35" y="15" font-family="monospace" font-size="8" fill="#FFF" text-anchor="middle">VOICE</text>
+    <text x="35" y="28" font-family="monospace" font-size="7" fill="#FFF" text-anchor="middle">CHAT</text>
+    <rect x="30" y="40" width="10" height="20" fill="#3A7BBF"/>
+  </g>
+
+  <!-- M5: Portal (Latest) -->
+  <g class="milestone m5" transform="translate(730, 120)">
+    <rect x="0" y="0" width="30" height="50" fill="#800080" rx="15" class="portal"/>
+    <rect x="5" y="5" width="20" height="40" fill="#DDA0DD" rx="10"/>
+    <circle cx="15" cy="25" r="5" fill="#FFF" class="float"/>
+  </g>
+
+  <!-- Player Character -->
+  <g class="player">
+    <!-- Head -->
+    <rect x="0" y="120" width="20" height="20" fill="#FFDAB9" rx="2"/>
+    <!-- Eyes -->
+    <rect x="4" y="126" width="4" height="4" fill="#000"/>
+    <rect x="12" y="126" width="4" height="4" fill="#000"/>
+    <!-- Body -->
+    <rect x="0" y="140" width="20" height="20" fill="#4682B4" rx="2"/>
+    <!-- Arms -->
+    <rect x="-6" y="140" width="6" height="16" fill="#FFDAB9" class="arm-left" rx="1"/>
+    <rect x="20" y="140" width="6" height="16" fill="#FFDAB9" class="arm-right" rx="1"/>
+    <!-- Legs -->
+    <rect x="2" y="160" width="7" height="14" fill="#2F4F4F" class="leg-left" rx="1"/>
+    <rect x="11" y="160" width="7" height="14" fill="#2F4F4F" class="leg-right" rx="1"/>
+  </g>
+</svg>
