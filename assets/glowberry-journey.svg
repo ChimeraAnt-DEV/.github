@@ -1,185 +1,286 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="100%" height="200">
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="712" viewBox="0 0 1280 712" role="img" aria-labelledby="t d" xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTozOGI0NDE0NS00YzI2LTQ1MTktYjk5NS1hOWUzYjUwYjdkMTcAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaIdoUdhs4DGBvNiJGfNNVegAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDphYzkzZjYzMi0wYjI4LTQzMmYtYWQ1My0zMDA4YjY0MTcxM2ZscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNo76wGfRwB39Aj5POWTeL2lAAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggotXf2VHJyn1gzFpJg80suRn0IJpz2iNUbfhjziu+ut+kZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaNLhDUk8h19H7/S+iFoWq3UAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRNAAAAAAAAAAAAAAAAAGRoYXNoWCClEz5h3P7NYAIfEYGUKQieclF3GKxcy859NqGcKiE2JGRuYW1lbmp1bWJmIG1hbmlmZXN0amV4Y2x1c2lvbnOBomVzdGFydBi5Zmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjM4YjQ0MTQ1LTRjMjYtNDUxOS1iOTk1LWE5ZTNiNTBiN2QxNy9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjliZTQ5Y2M5LWEyMzAtNDJmNy1iMDgwLTJiZDIzMmY2MWQxNHJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCCi1d/ZUcnKfWDMWkmDzSy5GfQgmnPaI1Rt+GPOK76636JjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggDQ5lVYfWHUuT79etR5VT0TZq5aV3Fj67Dfjxpqr8xPaiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggknm6LTTl3NHDdvCDUnFSkU61FoyILE9rkPTVKPh1aIh0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQMoyzuDbzGMgJs0APlTjQ3HXxoO8JHAu5SZqALdmHAGlF49vI2wcTiji3gHxmevAiooR6b0OJ0xuYa8QzZo80rI=</c2pa:manifest></metadata>
+  <title id="t">ChimeraAnt-DEV, the Chimera Team</title>
+  <desc id="d">Lineage from ChimeraLauncher to ChimeraClient to GlowberryClient, plus live statistics for GlowberryClient, ChimCode and BerryForge.</desc>
   <defs>
-    <style>
-      /* --- Keyframes --- */
-      @keyframes scroll-slow {
-        0% { transform: translateX(0); }
-        100% { transform: translateX(-800px); }
-      }
-      @keyframes scroll-fast {
-        0% { transform: translateX(0); }
-        100% { transform: translateX(-800px); }
-      }
-      @keyframes walk {
-        0% { transform: translateX(-60px); }
-        100% { transform: translateX(860px); }
-      }
-      @keyframes leg-swing {
-        0%, 100% { transform: translateY(0); }
-        50% { transform: translateY(-6px); }
-      }
-      @keyframes arm-swing {
-        0%, 100% { transform: translateY(0); }
-        50% { transform: translateY(4px); }
-      }
-      @keyframes appear {
-        0% { opacity: 0; transform: translateY(10px) scale(0.9); }
-        10% { opacity: 1; transform: translateY(0) scale(1); }
-        90% { opacity: 1; transform: translateY(0) scale(1); }
-        100% { opacity: 0; transform: translateY(-10px) scale(0.9); }
-      }
-      @keyframes float {
-        0%, 100% { transform: translateY(0); }
-        50% { transform: translateY(-6px); }
-      }
-      @keyframes glow-pulse {
-        0%, 100% { filter: drop-shadow(0 0 2px #b44dff); }
-        50% { filter: drop-shadow(0 0 10px #b44dff); }
-      }
-      @keyframes text-fade {
-        0%, 80% { opacity: 0; }
-        100% { opacity: 1; }
-      }
-
-      /* --- Classes --- */
-      .bg-far { animation: scroll-slow 30s linear infinite; }
-      .bg-mid { animation: scroll-slow 20s linear infinite; }
-      .bg-near { animation: scroll-fast 12s linear infinite; }
-      
-      .player { animation: walk 22s linear infinite; }
-      .leg-l { animation: leg-swing 0.7s ease-in-out infinite; transform-origin: center top; }
-      .leg-r { animation: leg-swing 0.7s ease-in-out infinite reverse; transform-origin: center top; }
-      .arm-l { animation: arm-swing 0.7s ease-in-out infinite; transform-origin: center top; }
-      .arm-r { animation: arm-swing 0.7s ease-in-out infinite reverse; transform-origin: center top; }
-
-      .milestone { opacity: 0; animation: appear 22s linear infinite; }
-      .m1 { animation-delay: 2s; }
-      .m2 { animation-delay: 6s; }
-      .m3 { animation-delay: 10s; }
-      .m4 { animation-delay: 14s; }
-      .m5 { animation-delay: 18s; }
-      
-      .portal-glow { animation: glow-pulse 2s ease-in-out infinite; }
-      .float-anim { animation: float 3s ease-in-out infinite; }
-      .text-anim { animation: text-fade 22s linear infinite; }
-    </style>
-  </defs>
-
-  <!-- Sky Gradient -->
-  <defs>
-    <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#1a1a2e"/>
-      <stop offset="100%" stop-color="#16213e"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0A0E1A"/>
+      <stop offset="1" stop-color="#141c3a"/>
     </linearGradient>
+    <radialGradient id="orbBlue" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#4da3ff" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#4da3ff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orbViolet" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#8b6bff" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#8b6bff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orbBerry" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ff5d8f" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#ff5d8f" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#b9c8ff"/>
+    </linearGradient>
+    <linearGradient id="sweepGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4da3ff"/>
+      <stop offset="0.5" stop-color="#8b6bff"/>
+      <stop offset="1" stop-color="#ff5d8f"/>
+    </linearGradient>
+    <clipPath id="marqueeClip"><rect x="40" y="626" width="1200" height="38" rx="19"/></clipPath>
   </defs>
-  <rect width="800" height="200" fill="url(#skyGrad)"/>
 
-  <!-- Stars -->
-  <g opacity="0.6">
-    <circle cx="100" cy="30" r="1.5" fill="#fff"/>
-    <circle cx="250" cy="60" r="1" fill="#fff"/>
-    <circle cx="400" cy="20" r="1.5" fill="#fff"/>
-    <circle cx="550" cy="50" r="1" fill="#fff"/>
-    <circle cx="700" cy="35" r="1.5" fill="#fff"/>
+  <style>
+    .sans { font-family: 'Segoe UI', Inter, 'Helvetica Neue', Arial, sans-serif; }
+    .mono { font-family: 'SFMono-Regular', Consolas, 'DejaVu Sans Mono', monospace; }
+
+    @keyframes rise   { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes sweep  { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+    @keyframes drift1 { 0%,100% { transform: translate(0,0); } 50% { transform: translate(60px,30px); } }
+    @keyframes drift2 { 0%,100% { transform: translate(0,0); } 50% { transform: translate(-70px,-24px); } }
+    @keyframes drift3 { 0%,100% { transform: translate(0,0); } 50% { transform: translate(-40px,36px); } }
+    @keyframes ping   { 0% { transform: scale(1); opacity: .65; } 100% { transform: scale(3.2); opacity: 0; } }
+    @keyframes travel { 0% { transform: translateX(0); opacity: 0; } 8% { opacity: 1; } 92% { opacity: 1; } 100% { transform: translateX(940px); opacity: 0; } }
+    @keyframes flow   { to { stroke-dashoffset: -28; } }
+    @keyframes scroll { from { transform: translateX(0); } to { transform: translateX(-2318px); } }
+    @keyframes glowline { 0%,100% { opacity: .35; } 50% { opacity: 1; } }
+
+    .orb1 { animation: drift1 16s ease-in-out infinite; }
+    .orb2 { animation: drift2 19s ease-in-out infinite; }
+    .orb3 { animation: drift3 22s ease-in-out infinite; }
+    .sweep { transform-box: fill-box; transform-origin: left center; animation: sweep 1.4s .2s ease-out both; }
+    .rise1 { animation: rise .8s .15s ease-out both; }
+    .rise2 { animation: rise .8s .35s ease-out both; }
+    .rise3 { animation: rise .8s .55s ease-out both; }
+    .rise4 { animation: rise .8s .75s ease-out both; }
+    .rise5 { animation: rise .8s .95s ease-out both; }
+    .ping  { transform-box: fill-box; transform-origin: center; animation: ping 2.2s ease-out infinite; }
+    .ping2 { transform-box: fill-box; transform-origin: center; animation: ping 2.2s 1.1s ease-out infinite; }
+    .traveler { animation: travel 7s ease-in-out infinite; }
+    .flowline { stroke-dasharray: 6 8; animation: flow 1.4s linear infinite; }
+    .marquee { animation: scroll 58s linear infinite; }
+    .pulseline { animation: glowline 3s ease-in-out infinite; }
+
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; }
+    }
+  </style>
+
+  <!-- Background -->
+  <rect width="1280" height="712" rx="22" fill="url(#bg)"/>
+  <g clip-path="inset(0 round 22px)">
+    <circle class="orb1" cx="180" cy="120" r="280" fill="url(#orbBlue)"/>
+    <circle class="orb2" cx="1120" cy="620" r="300" fill="url(#orbViolet)"/>
+    <circle class="orb3" cx="720" cy="40" r="220" fill="url(#orbBerry)"/>
+  </g>
+  <rect x="0.5" y="0.5" width="1279" height="711" rx="21.5" fill="none" stroke="#2a3563" stroke-opacity="0.8"/>
+
+  <!-- Header -->
+  <g class="sans rise1">
+    <text x="40" y="70" font-size="44" font-weight="700" fill="url(#title)">ChimeraAnt-DEV</text>
+    <text x="40" y="104" font-size="18" fill="#9fb0d6">The Chimera Team. We make apps for people's needs, wants and worries.</text>
+  </g>
+  <rect class="sweep" x="40" y="116" width="260" height="3" rx="1.5" fill="url(#sweepGrad)"/>
+
+  <g class="rise1">
+    <rect x="900" y="34" width="340" height="34" rx="17" fill="#0e1530" stroke="#2a3563"/>
+    <circle class="ping" cx="925" cy="51" r="5" fill="#3ddc97"/>
+    <circle class="ping2" cx="925" cy="51" r="5" fill="#3ddc97"/>
+    <circle cx="925" cy="51" r="5" fill="#3ddc97"/>
+    <text class="mono" x="945" y="56" font-size="12.5" fill="#a9b8dd" letter-spacing="0.5">LIVE STATS · 17 OCT 2026</text>
+    <text class="mono" x="1240" y="96" font-size="13" fill="#7f8fbb" text-anchor="end">github.com/ChimeraAnt-DEV</text>
+    <text class="mono" x="1240" y="116" font-size="13" fill="#7f8fbb" text-anchor="end">Android · Kotlin · Java · C++ · Python</text>
   </g>
 
-  <!-- Far Background (Mountains) -->
-  <g class="bg-far">
-    <path d="M0 140 L100 80 L200 140 L300 90 L400 140 L500 70 L600 140 L700 100 L800 140 V200 H0 Z" fill="#0f3460" opacity="0.5"/>
+  <!-- Lineage timeline -->
+  <g class="rise2">
+    <rect x="40" y="140" width="1200" height="112" rx="16" fill="#0e1530" fill-opacity="0.9" stroke="#2a3563"/>
+    <text class="mono" x="64" y="166" font-size="11" fill="#6f7fae" letter-spacing="2.5">LINEAGE</text>
+    <line x1="170" y1="198" x2="1110" y2="198" stroke="#2a3563" stroke-width="2"/>
+    <line class="flowline" x1="170" y1="198" x2="1110" y2="198" stroke="#4da3ff" stroke-opacity="0.55" stroke-width="2"/>
+    <circle class="traveler" cx="170" cy="198" r="4.5" fill="#ffffff"/>
+
+    <circle cx="170" cy="198" r="9" fill="#0e1530" stroke="#6f7fae" stroke-width="2"/>
+    <circle cx="640" cy="198" r="9" fill="#0e1530" stroke="#8aa0d6" stroke-width="2"/>
+    <circle class="ping" cx="1110" cy="198" r="9" fill="#4da3ff"/>
+    <circle cx="1110" cy="198" r="9" fill="#4da3ff" stroke="#bfe0ff" stroke-width="2"/>
+
+    <g class="sans" text-anchor="middle">
+      <text x="170" y="228" font-size="15" font-weight="600" fill="#cdd7ee">ChimeraLauncher</text>
+      <text x="640" y="228" font-size="15" font-weight="600" fill="#cdd7ee">ChimeraClient</text>
+      <text x="1110" y="228" font-size="15" font-weight="700" fill="#8cc3ff">GlowberryClient</text>
+      <g font-size="12" fill="#7f8fbb">
+        <text x="170" y="244">The original launcher</text>
+        <text x="640" y="244">Renamed, new package id</text>
+        <text x="1110" y="244">Rebrand, in-place update</text>
+      </g>
+    </g>
   </g>
 
-  <!-- Mid Background (Hills) -->
-  <g class="bg-mid">
-    <path d="M0 150 Q50 120 100 150 T200 150 T300 150 T400 150 T500 150 T600 150 T700 150 T800 150 V200 H0 Z" fill="#1a1a2e"/>
-    <path d="M0 160 Q80 130 160 160 T320 160 T480 160 T640 160 T800 160 V200 H0 Z" fill="#16213e"/>
+  <!-- Card 1: GlowberryClient -->
+  <g class="sans rise3">
+    <rect x="40" y="272" width="380" height="336" rx="16" fill="#0e1530" stroke="#4da3ff" stroke-opacity="0.55"/>
+    <rect x="56" y="272" width="348" height="4" rx="2" fill="#4da3ff"/>
+    <circle cx="74" cy="320" r="18" fill="#4da3ff" fill-opacity="0.18" stroke="#4da3ff"/>
+    <text x="74" y="327" text-anchor="middle" font-size="20" font-weight="700" fill="#4da3ff">G</text>
+    <text x="104" y="328" font-size="26" font-weight="700" fill="#ffffff">GlowberryClient</text>
+    <text x="64" y="366" font-size="15" fill="#8cc3ff">Advanced launcher for Minecraft: Bedrock</text>
+
+    <g>
+      <rect x="64" y="384" width="100" height="48" rx="10" fill="#4da3ff" fill-opacity="0.08" stroke="#4da3ff" stroke-opacity="0.3"/>
+      <rect x="180" y="384" width="100" height="48" rx="10" fill="#4da3ff" fill-opacity="0.08" stroke="#4da3ff" stroke-opacity="0.3"/>
+      <rect x="296" y="384" width="100" height="48" rx="10" fill="#4da3ff" fill-opacity="0.08" stroke="#4da3ff" stroke-opacity="0.3"/>
+      <g text-anchor="middle" font-weight="700" font-size="19" fill="#ffffff">
+        <text x="114" y="409">3</text>
+        <text x="230" y="409">380</text>
+        <text x="346" y="409">—</text>
+      </g>
+      <g class="mono" text-anchor="middle" font-size="10.5" fill="#7fb4f0" letter-spacing="1">
+        <text x="114" y="425">STARS</text>
+        <text x="230" y="425">COMMITS</text>
+        <text x="346" y="425">DOWNLOADS</text>
+      </g>
+    </g>
+
+    <g font-size="14.5" fill="#cdd7ee">
+      <circle cx="68" cy="460" r="3" fill="#4da3ff"/><text x="84" y="465">Native mod loading with .AntEgg packs</text>
+      <circle cx="68" cy="488" r="3" fill="#4da3ff"/><text x="84" y="493">Mod Menu, HUD editor and PvP modules</text>
+      <circle cx="68" cy="516" r="3" fill="#4da3ff"/><text x="84" y="521">Voice chat, replays and cosmetics</text>
+      <circle cx="68" cy="544" r="3" fill="#4da3ff"/><text x="84" y="549">Multi-version instances, controller input</text>
+    </g>
+    <line x1="64" y1="566" x2="396" y2="566" stroke="#4da3ff" stroke-opacity="0.25"/>
+    <text class="mono" x="64" y="592" font-size="13" fill="#7fb4f0">Apache-2.0 · Android 9+</text>
+    <text class="mono" x="396" y="592" font-size="13" fill="#bfe0ff" text-anchor="end">—</text>
   </g>
 
-  <!-- Foreground Ground -->
-  <rect y="170" width="800" height="30" fill="#2d5a27"/>
-  <rect y="175" width="800" height="25" fill="#1e3d1a"/>
-  <g class="bg-near">
-    <rect x="0" y="170" width="40" height="5" fill="#3a7a32"/>
-    <rect x="80" y="170" width="30" height="5" fill="#3a7a32"/>
-    <rect x="160" y="170" width="50" height="5" fill="#3a7a32"/>
-    <rect x="280" y="170" width="40" height="5" fill="#3a7a32"/>
-    <rect x="380" y="170" width="60" height="5" fill="#3a7a32"/>
-    <rect x="500" y="170" width="35" height="5" fill="#3a7a32"/>
-    <rect x="600" y="170" width="45" height="5" fill="#3a7a32"/>
-    <rect x="720" y="170" width="40" height="5" fill="#3a7a32"/>
+  <!-- Card 2: ChimCode -->
+  <g class="sans rise4">
+    <rect x="450" y="272" width="380" height="336" rx="16" fill="#0e1530" stroke="#8b6bff" stroke-opacity="0.55"/>
+    <rect x="466" y="272" width="348" height="4" rx="2" fill="#8b6bff"/>
+    <circle cx="484" cy="320" r="18" fill="#8b6bff" fill-opacity="0.18" stroke="#8b6bff"/>
+    <text x="484" y="327" text-anchor="middle" font-size="20" font-weight="700" fill="#a994ff">C</text>
+    <text x="514" y="328" font-size="26" font-weight="700" fill="#ffffff">ChimCode</text>
+    <text x="474" y="366" font-size="15" fill="#b4a2ff">Learn to code. Then build anything.</text>
+
+    <g>
+      <rect x="474" y="384" width="100" height="48" rx="10" fill="#8b6bff" fill-opacity="0.08" stroke="#8b6bff" stroke-opacity="0.3"/>
+      <rect x="590" y="384" width="100" height="48" rx="10" fill="#8b6bff" fill-opacity="0.08" stroke="#8b6bff" stroke-opacity="0.3"/>
+      <rect x="706" y="384" width="100" height="48" rx="10" fill="#8b6bff" fill-opacity="0.08" stroke="#8b6bff" stroke-opacity="0.3"/>
+      <g text-anchor="middle" font-weight="700" font-size="19" fill="#ffffff">
+        <text x="524" y="409">0</text>
+        <text x="640" y="409">12</text>
+        <text x="756" y="409">—</text>
+      </g>
+      <g class="mono" text-anchor="middle" font-size="10.5" fill="#a994ff" letter-spacing="1">
+        <text x="524" y="425">STARS</text>
+        <text x="640" y="425">COMMITS</text>
+        <text x="756" y="425">DOWNLOADS</text>
+      </g>
+    </g>
+
+    <g font-size="14.5" fill="#cdd7ee">
+      <circle cx="478" cy="460" r="3" fill="#8b6bff"/><text x="494" y="465">16 languages, 75 guided lessons</text>
+      <circle cx="478" cy="488" r="3" fill="#8b6bff"/><text x="494" y="493">Mochi, an animated robot tutor</text>
+      <circle cx="478" cy="516" r="3" fill="#8b6bff"/><text x="494" y="521">955 achievements, themes, social play</text>
+      <circle cx="478" cy="544" r="3" fill="#8b6bff"/><text x="494" y="549">Works offline in browser and on Android</text>
+    </g>
+    <line x1="474" y1="566" x2="806" y2="566" stroke="#8b6bff" stroke-opacity="0.25"/>
+    <text class="mono" x="474" y="592" font-size="13" fill="#a994ff">MIT · Web + Android APK</text>
+    <text class="mono" x="806" y="592" font-size="13" fill="#cfc3ff" text-anchor="end">—</text>
   </g>
 
-  <!-- Milestones -->
-  <!-- M1: BETA Sign -->
-  <g class="milestone m1" transform="translate(120, 130)">
-    <rect x="0" y="0" width="50" height="25" fill="#4a2c17" rx="3" stroke="#8B4513" stroke-width="2"/>
-    <text x="25" y="17" font-family="monospace" font-size="11" fill="#ffcc80" text-anchor="middle" font-weight="bold">BETA</text>
-    <rect x="20" y="25" width="10" height="30" fill="#6B4226"/>
+  <!-- Card 3: BerryForge -->
+  <g class="sans rise5">
+    <rect x="860" y="272" width="380" height="336" rx="16" fill="#0e1530" stroke="#ff5d8f" stroke-opacity="0.55"/>
+    <rect x="876" y="272" width="348" height="4" rx="2" fill="#ff5d8f"/>
+    <circle cx="894" cy="320" r="18" fill="#ff5d8f" fill-opacity="0.18" stroke="#ff5d8f"/>
+    <text x="894" y="327" text-anchor="middle" font-size="20" font-weight="700" fill="#ff7fa8">B</text>
+    <text x="924" y="328" font-size="26" font-weight="700" fill="#ffffff">BerryForge</text>
+    <text x="884" y="366" font-size="15" fill="#ff9ebb">An Android IDE made for GitHub users</text>
+
+    <g>
+      <rect x="884" y="384" width="100" height="48" rx="10" fill="#ff5d8f" fill-opacity="0.08" stroke="#ff5d8f" stroke-opacity="0.3"/>
+      <rect x="1000" y="384" width="100" height="48" rx="10" fill="#ff5d8f" fill-opacity="0.08" stroke="#ff5d8f" stroke-opacity="0.3"/>
+      <rect x="1116" y="384" width="100" height="48" rx="10" fill="#ff5d8f" fill-opacity="0.08" stroke="#ff5d8f" stroke-opacity="0.3"/>
+      <g text-anchor="middle" font-weight="700" font-size="19" fill="#ffffff">
+        <text x="934" y="409">1</text>
+        <text x="1050" y="409">35</text>
+        <text x="1166" y="409">—</text>
+      </g>
+      <g class="mono" text-anchor="middle" font-size="10.5" fill="#ff8fb0" letter-spacing="1">
+        <text x="934" y="425">STARS</text>
+        <text x="1050" y="425">COMMITS</text>
+        <text x="1166" y="425">DOWNLOADS</text>
+      </g>
+    </g>
+
+    <g font-size="14.5" fill="#cdd7ee">
+      <circle cx="888" cy="460" r="3" fill="#ff5d8f"/><text x="904" y="465">GitHub sign-in, repo browser, editor</text>
+      <circle cx="888" cy="488" r="3" fill="#ff5d8f"/><text x="904" y="493">AI code review, commit and PR flow</text>
+      <circle cx="888" cy="516" r="3" fill="#ff5d8f"/><text x="904" y="521">Built-in MCP server with sandbox mode</text>
+      <circle cx="888" cy="544" r="3" fill="#ff5d8f"/><text x="904" y="549">Kotlin and Jetpack Compose throughout</text>
+    </g>
+    <line x1="884" y1="566" x2="1216" y2="566" stroke="#ff5d8f" stroke-opacity="0.25"/>
+    <text class="mono" x="884" y="592" font-size="13" fill="#ff8fb0">Kotlin · Android 8+</text>
+    <text class="mono" x="1216" y="592" font-size="13" fill="#ffc2d3" text-anchor="end">—</text>
   </g>
 
-  <!-- M2: v1.0 Tree -->
-  <g class="milestone m2" transform="translate(280, 115)">
-    <rect x="18" y="25" width="10" height="30" fill="#5c3a1e"/>
-    <rect x="5" y="0" width="35" height="30" fill="#2e7d32" rx="4"/>
-    <rect x="10" y="-5" width="25" height="15" fill="#388e3c" rx="3"/>
-    <text x="22" y="18" font-family="monospace" font-size="10" fill="#fff" text-anchor="middle" font-weight="bold">v1.0</text>
+  <!-- Feature marquee -->
+  <g class="rise5">
+    <rect x="40" y="626" width="1200" height="38" rx="19" fill="#0e1530" fill-opacity="0.9" stroke="#2a3563"/>
+    <g clip-path="url(#marqueeClip)">
+      <g class="marquee">
+        <rect x="40.0" y="633" width="218.0" height="24" rx="12" fill="#4da3ff" fill-opacity="0.10" stroke="#4da3ff" stroke-opacity="0.35"/>
+        <text class="mono" x="149.0" y="649" font-size="13" fill="#bcd2f5" text-anchor="middle">Preloader native SDK</text>
+        <rect x="272.0" y="633" width="194.3" height="24" rx="12" fill="#4da3ff" fill-opacity="0.10" stroke="#4da3ff" stroke-opacity="0.35"/>
+        <text class="mono" x="369.1" y="649" font-size="13" fill="#bcd2f5" text-anchor="middle">.AntEgg mod packs</text>
+        <rect x="480.3" y="633" width="178.5" height="24" rx="12" fill="#4da3ff" fill-opacity="0.10" stroke="#4da3ff" stroke-opacity="0.35"/>
+        <text class="mono" x="569.5" y="649" font-size="13" fill="#bcd2f5" text-anchor="middle">Lua script mods</text>
+        <rect x="672.8" y="633" width="139.0" height="24" rx="12" fill="#4da3ff" fill-opacity="0.10" stroke="#4da3ff" stroke-opacity="0.35"/>
+        <text class="mono" x="742.3" y="649" font-size="13" fill="#bcd2f5" text-anchor="middle">JavaBridge</text>
+        <rect x="825.8" y="633" width="218.0" height="24" rx="12" fill="#4da3ff" fill-opacity="0.10" stroke="#4da3ff" stroke-opacity="0.35"/>
+        <text class="mono" x="934.8" y="649" font-size="13" fill="#bcd2f5" text-anchor="middle">Proximity voice chat</text>
+        <rect x="1057.8" y="633" width="178.5" height="24" rx="12" fill="#4da3ff" fill-opacity="0.10" stroke="#4da3ff" stroke-opacity="0.35"/>
+        <text class="mono" x="1147.0" y="649" font-size="13" fill="#bcd2f5" text-anchor="middle">Replay recorder</text>
+        <rect x="1250.3" y="633" width="210.1" height="24" rx="12" fill="#4da3ff" fill-opacity="0.10" stroke="#4da3ff" stroke-opacity="0.35"/>
+        <text class="mono" x="1355.3" y="649" font-size="13" fill="#bcd2f5" text-anchor="middle">Controller profiles</text>
+        <rect x="1474.4" y="633" width="139.0" height="24" rx="12" fill="#4da3ff" fill-opacity="0.10" stroke="#4da3ff" stroke-opacity="0.35"/>
+        <text class="mono" x="1543.9" y="649" font-size="13" fill="#bcd2f5" text-anchor="middle">MCP server</text>
+        <rect x="1627.4" y="633" width="154.8" height="24" rx="12" fill="#4da3ff" fill-opacity="0.10" stroke="#4da3ff" stroke-opacity="0.35"/>
+        <text class="mono" x="1704.8" y="649" font-size="13" fill="#bcd2f5" text-anchor="middle">Sandbox mode</text>
+        <rect x="1796.2" y="633" width="194.3" height="24" rx="12" fill="#4da3ff" fill-opacity="0.10" stroke="#4da3ff" stroke-opacity="0.35"/>
+        <text class="mono" x="1893.3" y="649" font-size="13" fill="#bcd2f5" text-anchor="middle">Mochi robot tutor</text>
+        <rect x="2004.5" y="633" width="139.0" height="24" rx="12" fill="#4da3ff" fill-opacity="0.10" stroke="#4da3ff" stroke-opacity="0.35"/>
+        <text class="mono" x="2074.0" y="649" font-size="13" fill="#bcd2f5" text-anchor="middle">75 lessons</text>
+        <rect x="2157.5" y="633" width="186.4" height="24" rx="12" fill="#4da3ff" fill-opacity="0.10" stroke="#4da3ff" stroke-opacity="0.35"/>
+        <text class="mono" x="2250.7" y="649" font-size="13" fill="#bcd2f5" text-anchor="middle">955 achievements</text>
+        <rect x="2357.9" y="633" width="218.0" height="24" rx="12" fill="#4da3ff" fill-opacity="0.10" stroke="#4da3ff" stroke-opacity="0.35"/>
+        <text class="mono" x="2466.9" y="649" font-size="13" fill="#bcd2f5" text-anchor="middle">Preloader native SDK</text>
+        <rect x="2589.9" y="633" width="194.3" height="24" rx="12" fill="#4da3ff" fill-opacity="0.10" stroke="#4da3ff" stroke-opacity="0.35"/>
+        <text class="mono" x="2687.1" y="649" font-size="13" fill="#bcd2f5" text-anchor="middle">.AntEgg mod packs</text>
+        <rect x="2798.2" y="633" width="178.5" height="24" rx="12" fill="#4da3ff" fill-opacity="0.10" stroke="#4da3ff" stroke-opacity="0.35"/>
+        <text class="mono" x="2887.5" y="649" font-size="13" fill="#bcd2f5" text-anchor="middle">Lua script mods</text>
+        <rect x="2990.7" y="633" width="139.0" height="24" rx="12" fill="#4da3ff" fill-opacity="0.10" stroke="#4da3ff" stroke-opacity="0.35"/>
+        <text class="mono" x="3060.2" y="649" font-size="13" fill="#bcd2f5" text-anchor="middle">JavaBridge</text>
+        <rect x="3143.7" y="633" width="218.0" height="24" rx="12" fill="#4da3ff" fill-opacity="0.10" stroke="#4da3ff" stroke-opacity="0.35"/>
+        <text class="mono" x="3252.7" y="649" font-size="13" fill="#bcd2f5" text-anchor="middle">Proximity voice chat</text>
+        <rect x="3375.7" y="633" width="178.5" height="24" rx="12" fill="#4da3ff" fill-opacity="0.10" stroke="#4da3ff" stroke-opacity="0.35"/>
+        <text class="mono" x="3465.0" y="649" font-size="13" fill="#bcd2f5" text-anchor="middle">Replay recorder</text>
+        <rect x="3568.2" y="633" width="210.1" height="24" rx="12" fill="#4da3ff" fill-opacity="0.10" stroke="#4da3ff" stroke-opacity="0.35"/>
+        <text class="mono" x="3673.3" y="649" font-size="13" fill="#bcd2f5" text-anchor="middle">Controller profiles</text>
+        <rect x="3792.3" y="633" width="139.0" height="24" rx="12" fill="#4da3ff" fill-opacity="0.10" stroke="#4da3ff" stroke-opacity="0.35"/>
+        <text class="mono" x="3861.8" y="649" font-size="13" fill="#bcd2f5" text-anchor="middle">MCP server</text>
+        <rect x="3945.3" y="633" width="154.8" height="24" rx="12" fill="#4da3ff" fill-opacity="0.10" stroke="#4da3ff" stroke-opacity="0.35"/>
+        <text class="mono" x="4022.7" y="649" font-size="13" fill="#bcd2f5" text-anchor="middle">Sandbox mode</text>
+        <rect x="4114.1" y="633" width="194.3" height="24" rx="12" fill="#4da3ff" fill-opacity="0.10" stroke="#4da3ff" stroke-opacity="0.35"/>
+        <text class="mono" x="4211.2" y="649" font-size="13" fill="#bcd2f5" text-anchor="middle">Mochi robot tutor</text>
+        <rect x="4322.4" y="633" width="139.0" height="24" rx="12" fill="#4da3ff" fill-opacity="0.10" stroke="#4da3ff" stroke-opacity="0.35"/>
+        <text class="mono" x="4391.9" y="649" font-size="13" fill="#bcd2f5" text-anchor="middle">75 lessons</text>
+        <rect x="4475.4" y="633" width="186.4" height="24" rx="12" fill="#4da3ff" fill-opacity="0.10" stroke="#4da3ff" stroke-opacity="0.35"/>
+        <text class="mono" x="4568.6" y="649" font-size="13" fill="#bcd2f5" text-anchor="middle">955 achievements</text>
+      </g>
+    </g>
   </g>
 
-  <!-- M3: .AntEgg Mod Pack -->
-  <g class="milestone m3" transform="translate(450, 135)">
-    <rect x="0" y="0" width="70" height="35" fill="#b85c1a" rx="5" stroke="#e67e22" stroke-width="2"/>
-    <text x="35" y="16" font-family="monospace" font-size="9" fill="#fff" text-anchor="middle" font-weight="bold">.AntEgg</text>
-    <text x="35" y="28" font-family="monospace" font-size="7" fill="#ffe0b2" text-anchor="middle">Mod Packs</text>
-    <rect x="30" y="35" width="10" height="20" fill="#8B4513"/>
-    <circle cx="35" cy="18" r="4" fill="#FFD700" class="float-anim"/>
-  </g>
-
-  <!-- M4: Proximity Voice Chat -->
-  <g class="milestone m4" transform="translate(600, 125)">
-    <rect x="0" y="0" width="80" height="45" fill="#1565c0" rx="8" stroke="#42a5f5" stroke-width="2"/>
-    <text x="40" y="18" font-family="monospace" font-size="9" fill="#fff" text-anchor="middle" font-weight="bold">VOICE</text>
-    <text x="40" y="32" font-family="monospace" font-size="8" fill="#bbdefb" text-anchor="middle">CHAT</text>
-    <rect x="35" y="45" width="10" height="15" fill="#0d47a1"/>
-    <!-- Sound waves -->
-    <path d="M 10 15 Q 5 22 10 30" stroke="#90caf9" stroke-width="2" fill="none" class="float-anim"/>
-    <path d="M 70 15 Q 75 22 70 30" stroke="#90caf9" stroke-width="2" fill="none" class="float-anim"/>
-  </g>
-
-  <!-- M5: Portal (Latest) -->
-  <g class="milestone m5" transform="translate(730, 110)">
-    <rect x="0" y="0" width="35" height="60" fill="#4a148c" rx="17" class="portal-glow"/>
-    <rect x="5" y="5" width="25" height="50" fill="#9c27b0" rx="12"/>
-    <rect x="10" y="10" width="15" height="40" fill="#ce93d8" rx="7"/>
-    <circle cx="17.5" cy="30" r="5" fill="#fff" class="float-anim"/>
-  </g>
-
-  <!-- Player Character (Enhanced Pixel Art) -->
-  <g class="player">
-    <!-- Shadow -->
-    <ellipse cx="10" cy="175" rx="15" ry="4" fill="#000" opacity="0.3"/>
-    <!-- Head -->
-    <rect x="0" y="115" width="22" height="22" fill="#f5cba7" rx="2"/>
-    <!-- Hair -->
-    <rect x="0" y="115" width="22" height="6" fill="#3e2723" rx="2"/>
-    <!-- Eyes -->
-    <rect x="4" y="123" width="5" height="5" fill="#1a1a1a"/>
-    <rect x="13" y="123" width="5" height="5" fill="#1a1a1a"/>
-    <!-- Mouth -->
-    <rect x="8" y="131" width="6" height="2" fill="#c0392b"/>
-    <!-- Body (Armor) -->
-    <rect x="0" y="137" width="22" height="22" fill="#2e86c1" rx="2"/>
-    <rect x="2" y="139" width="18" height="18" fill="#3498db" rx="1"/>
-    <!-- Arms -->
-    <rect x="-7" y="137" width="7" height="18" fill="#f5cba7" class="arm-l" rx="2"/>
-    <rect x="22" y="137" width="7" height="18" fill="#f5cba7" class="arm-r" rx="2"/>
-    <!-- Legs -->
-    <rect x="2" y="159" width="8" height="16" fill="#1a5276" class="leg-l" rx="2"/>
-    <rect x="12" y="159" width="8" height="16" fill="#1a5276" class="leg-r" rx="2"/>
-    <!-- Boots -->
-    <rect x="1" y="171" width="10" height="4" fill="#5d4037" rx="1"/>
-    <rect x="11" y="171" width="10" height="4" fill="#5d4037" rx="1"/>
-  </g>
-
-  <!-- Animated Title Text -->
-  <text x="400" y="40" font-family="monospace" font-size="24" fill="#fff" text-anchor="middle" font-weight="bold" class="text-anim">GlowberryClient</text>
-  <text x="400" y="60" font-family="monospace" font-size="12" fill="#aaa" text-anchor="middle" class="text-anim">A Minecraft Client for Android</text>
-</svg> 
+  <text class="mono pulseline" x="640" y="692" font-size="12" fill="#6f7fae" text-anchor="middle">Chimera Team · stats refresh automatically</text>
+</svg>
